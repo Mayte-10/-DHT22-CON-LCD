@@ -1,4 +1,26 @@
-# -DHT22-CON-LCD
+# REPORTE-SENSOR-DTH22- LCD
+## USO DEL LCD
+### Reporte: Sensor DHT22 con LCD con Tarjeta ESP32
+
+- Introducción
+
+El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y humedad relativa. Su combinación con la tarjeta ESP32 permite el monitoreo ambiental mediante transmisión y procesamiento de datos en tiempo real.
+
+- Materiales Utilizados
+
+  1. Sensor DHT22
+  2. Tarjeta ESP32
+  3. WOKWI SIMULATOR (https://wokwi.com) 
+
+- PROCEDIMIENTO 
+
+- Ingresar a  WOKWI SIMULATOR y seleccionar el microcontrolador ESP32
+
+  ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2021.14.00%20(1).jpeg)
+  ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.50.01.jpeg)
+
+  
+- Colocar el siguiente código
 
 
 
