@@ -24,10 +24,11 @@ El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y hum
 
 - Colocar el sensor DHT22 y la LCD
 - Realizar la conexión correspondiente
-  ![](h    )
+  
+  ![](https://github.com/Mayte-10/-DHT22-CON-LCD/blob/main/WhatsApp%20Image%202025-11-30%20at%2021.32.50.jpeg)
 
 - Colocar el siguiente código
-- 
+  
 ```
 #include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
@@ -81,6 +82,7 @@ void loop() {
 ```
 ADJUNTAR LAS LIBRERÍAS CORRESPONDIENTES 
 ![](https://github.com/Mayte-10/-DHT22-CON-LCD/blob/main/WhatsApp%20Image%202025-11-30%20at%2019.57.37.jpeg)
+
 - FUNCIONAMIENTO 
 El ESP32 inicializa el sensor DHT22 y el LCD.
 el ESP32 a traves del DHT22:
@@ -89,10 +91,12 @@ Lee la humedad (%).
 Imprime los valores en el LCD
 
 ![](h    )
-![](h    )
-![](h    )
-![](     )
+![](https://github.com/Mayte-10/-DHT22-CON-LCD/blob/main/WhatsApp%20Image%202025-11-30%20at%2021.35.01.jpeg)
+![](https://github.com/Mayte-10/-DHT22-CON-LCD/blob/main/WhatsApp%20Image%202025-11-30%20at%2021.35.36.jpeg)
+![](https://github.com/Mayte-10/-DHT22-CON-LCD/blob/main/WhatsApp%20Image%202025-11-30%20at%2021.36.27.jpeg)
 
+Realizó
+Mayte Torres 
 
 
 
