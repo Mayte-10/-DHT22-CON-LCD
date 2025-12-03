@@ -13,7 +13,7 @@ El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y hum
   2. Tarjeta ESP32
   3. LCD 
   4. WOKWI SIMULATOR (https://wokwi.com)
-![](h    )
+![](https://github.com/Mayte-10/-DHT22-CON-LCD/blob/main/WhatsApp%20Image%202025-11-30%20at%2019.54.34.jpeg)
 
 - PROCEDIMIENTO 
 
@@ -90,7 +90,7 @@ Imprime los valores en el LCD
 ![](h    )
 ![](h    )
 ![](h    )
-![](h    )
+![](https://github.com/Mayte-10/-DHT22-CON-LCD/blob/main/WhatsApp%20Image%202025-11-30%20at%2019.57.37.jpeg)
 
 
 
