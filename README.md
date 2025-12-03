@@ -12,7 +12,8 @@ El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y hum
   1. Sensor DHT22
   2. Tarjeta ESP32
   3. LCD 
-  4. WOKWI SIMULATOR (https://wokwi.com) 
+  4. WOKWI SIMULATOR (https://wokwi.com)
+![](h    )
 
 - PROCEDIMIENTO 
 
@@ -21,9 +22,13 @@ El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y hum
   ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2021.14.00%20(1).jpeg)
   ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.50.01.jpeg)
 
-  
+- Colocar el sensor DHT22 y la LCD
+- Realizar la conexión correspondiente
+  ![](h    )
+
 - Colocar el siguiente código
 - 
+```
 #include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
 #define I2C_ADDR    0x27
@@ -52,21 +57,41 @@ void loop() {
   Serial.println("Humidity: " + String(data.humidity, 1) + "%");
   Serial.println("---");
   
-  lcd.setCursor(0, 0);
-  lcd.print("  Temp: " + String(data.temperature, 1) + "\xDF"+"C  ");
+  lcd.clear();
+  lcd.setCursor(2, 1);
+  lcd.print("BIENVENIDOS");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2, 1);
+  lcd.print("MODULO 5");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2, 1);
+  lcd.print("MAYTE TORRES");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2, 0);
+  lcd.print("Temp: " + String(data.temperature, 1) + "\xDF"+"C  ");
   lcd.setCursor(0, 1);
   lcd.print(" Humidity: " + String(data.humidity, 1) + "% ");
-  lcd.print("Wokwi Online IoT");
+  delay(1000);
 
   delay(1000);
-}
-
--FUNCIONAMIENTO 
+} 
+```
+ADJUNTAR LAS LIBRERÍAS CORRESPONDIENTES 
+- FUNCIONAMIENTO 
 El ESP32 inicializa el sensor DHT22 y el LCD.
 el ESP32 a traves del DHT22:
 Lee la temperatura (°C).
 Lee la humedad (%). 
 Imprime los valores en el LCD
+
+![](h    )
+![](h    )
+![](h    )
+![](h    )
+
 
 
 
