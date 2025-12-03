@@ -80,6 +80,7 @@ void loop() {
 } 
 ```
 ADJUNTAR LAS LIBRERÍAS CORRESPONDIENTES 
+![](https://github.com/Mayte-10/-DHT22-CON-LCD/blob/main/WhatsApp%20Image%202025-11-30%20at%2019.57.37.jpeg)
 - FUNCIONAMIENTO 
 El ESP32 inicializa el sensor DHT22 y el LCD.
 el ESP32 a traves del DHT22:
@@ -90,7 +91,7 @@ Imprime los valores en el LCD
 ![](h    )
 ![](h    )
 ![](h    )
-![](https://github.com/Mayte-10/-DHT22-CON-LCD/blob/main/WhatsApp%20Image%202025-11-30%20at%2019.57.37.jpeg)
+![](     )
 
 
 
